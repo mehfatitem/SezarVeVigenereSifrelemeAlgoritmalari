@@ -1,0 +1,11 @@
+C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.exe
+C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.deps.json
+C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.runtimeconfig.json
+C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.runtimeconfig.dev.json
+C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.dll
+C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.pdb
+C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.AssemblyInfoInputs.cache
+C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.AssemblyInfo.cs
+C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.dll
+C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.pdb
+C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.csprojAssemblyReference.cache
