@@ -18,3 +18,4 @@ D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp
 D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.AssemblyInfo.cs
 D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.dll
 D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.pdb
+D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.csprojAssemblyReference.cache

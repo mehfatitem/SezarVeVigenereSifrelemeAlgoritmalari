@@ -31,7 +31,7 @@ namespace KriptoAlgoritmasi.Helpers
                             yeniIndeks = ((indeks - anahtar + ConstantsKripto.AlfabeUzunlugu) % ConstantsKripto.AlfabeUzunlugu);
                             break;
                         case ConstantsKripto.IslemSifre:
-                            yeniIndeks = ((indeks + anahtar + alfabe.Count) % alfabe.Count);
+                            yeniIndeks = ((indeks + anahtar + ConstantsKripto.AlfabeUzunlugu) % ConstantsKripto.AlfabeUzunlugu);
                             break;
                         default:
                             Console.WriteLine("Hatali şifreleme turu!");
