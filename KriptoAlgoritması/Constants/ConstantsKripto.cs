@@ -13,5 +13,6 @@ namespace KriptoAlgoritmasi.Constants
         public const int AlfabeUzunlugu = 29;
         public const string HataliSifrelemeTuru = "Hatali sifreleme turu!";
         public const string HataliKriptoAlgoritmaTuru = "Hatali kripto algoritmasi turu!";
+        public const string UyumsuzAnahtar = "Uyumsuz anahtar! Anahtar yalnizca harflerden olusmalidir!";
     }
 }

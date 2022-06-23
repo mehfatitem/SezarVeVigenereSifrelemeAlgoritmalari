@@ -31,6 +31,7 @@ namespace KriptoAlgoritmasi.Bases
         protected readonly int AlfabeUzunlugu = ConstantsKripto.AlfabeUzunlugu;
         protected readonly string HataliSifrelemeTuru = ConstantsKripto.HataliSifrelemeTuru;
         protected readonly string HataliKriptoAlgoritmaTuru = ConstantsKripto.HataliKriptoAlgoritmaTuru;
+        protected readonly string UyumsuzAnahtar = ConstantsKripto.UyumsuzAnahtar;
         #endregion
 
         #region "Kurucu"

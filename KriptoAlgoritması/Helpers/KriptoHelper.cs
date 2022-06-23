@@ -80,6 +80,10 @@ namespace KriptoAlgoritmasi.Helpers
                     }
                     break;
                 case VigenereKripto:
+                    if (!ValidationHelper.IsOnlyLetters(anahtar)){
+                        Yazdir(UyumsuzAnahtar);
+                        return "";
+                    }
                     string genislemisAnahtar = AnahtariGenisletVigenere(metin, anahtar);
                     genislemisAnahtar = genislemisAnahtar.ToUpper();
                     for (var i = 0; i < metin.Length; i++)

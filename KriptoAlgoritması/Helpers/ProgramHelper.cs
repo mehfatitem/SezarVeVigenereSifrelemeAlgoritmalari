@@ -19,13 +19,13 @@ namespace KriptoAlgoritmasi.Helpers
             Yazdir("Sistem başlangıç zamanı " + string.Format("{0:dd/mm/yyyy HH:mm:ss fff}", baslangicZamani));
             Yazdir(Environment.NewLine);
             base.InitKriptoNesne();
-            Yazdir(sk.Sifrele(".MeHmEd,FaTiH,tEmİz.", "11"));
-            Yazdir(sk.Desifrele(".VnRvNm,OiEşR,eNvŞı.", "11"));
+            //Yazdir(sk.Sifrele(".MeHmEd,FaTiH,tEmİz.", "11"));
+            //Yazdir(sk.Desifrele(".VnRvNm,OiEşR,eNvŞı.", "11"));
 
-            Yazdir(new SezarKripto().SifrelenmisMetninAnahtariniBul(".MeHmEd,FaTiH,tEmİz.", ".VnRvNm,OiEşR,eNvŞı."));
+            //Yazdir(new SezarKripto().SifrelenmisMetninAnahtariniBul(".MeHmEd,FaTiH,tEmİz.", ".VnRvNm,OiEşR,eNvŞı."));*/
 
-            Yazdir(vk.Sifrele(".MeHmEd,FaTiH,tEmİz.", "key"));
-            Yazdir(vk.Desifrele(".ZıGzIc,PeSuL,sÖrHj.", "key"));
+            Yazdir(vk.Sifrele("The zuick brozn foz jumps over 13 lazy dogs.", "cryptii"));
+            Yazdir(vk.Desifrele("Üaç ööşkm sögşy opp ılhbç poçı 13 ğiıa umvm.", "cryptii"));
             var bitisZamani = DateTime.Now;
             Yazdir(Environment.NewLine);
             Yazdir("Sistem bitiş zamanı " + string.Format("{0:dd/mm/yyyy HH:mm:ss fff}", bitisZamani));
