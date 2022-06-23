@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace KriptoAlgoritmasi
+namespace KriptoAlgoritmasi.Constants
 {
     public static class ConstantsKripto
     {

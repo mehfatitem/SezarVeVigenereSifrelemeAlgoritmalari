@@ -1,7 +1,4 @@
-﻿using KriptoAlgoritmasi.Helper;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using KriptoAlgoritmasi.Abstracts;
 
 namespace KriptoAlgoritmasi
 {
@@ -9,11 +6,11 @@ namespace KriptoAlgoritmasi
     {
         public override string Sifrele(string sifrelenecekMetin, string anahtar)
         {
-            return KriptoHelper.Sifrele(IslemSifre, VigenereKripto, sifrelenecekMetin, anahtar);
+            return kh.Sifrele(IslemSifre, VigenereKripto, sifrelenecekMetin, anahtar);
         }
         public override string Desifrele(string desifrelenecekMetin, string anahtar)
         {
-            return KriptoHelper.Sifrele(IslemDesifre, VigenereKripto, desifrelenecekMetin, anahtar);
+            return kh.Sifrele(IslemDesifre, VigenereKripto, desifrelenecekMetin, anahtar);
         }
     }
 }

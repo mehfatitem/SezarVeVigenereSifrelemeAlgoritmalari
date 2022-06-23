@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace KriptoAlgoritmasi.Helper
+namespace KriptoAlgoritmasi.Helpers
 {
     public static class ValidationHelper
     {

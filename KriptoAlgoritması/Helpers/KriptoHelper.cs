@@ -1,22 +1,25 @@
-﻿using System;
+﻿using KriptoAlgoritmasi.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
+using KriptoAlgoritmasi.Abstracts;
+using KriptoAlgoritmasi.Bases;
+using KriptoAlgoritmasi.Constants;
 
-namespace KriptoAlgoritmasi.Helper
+namespace KriptoAlgoritmasi.Helpers
 {
-    public class KriptoHelper
+    public class KriptoHelper : HelperBase, IKriptoHelper
     {
 
-        private static int yeniIndeks;
-        private static string kriptoSonuc;
-        private static List<string> alfabe;
-        private static List<string> _kucukAlfabe = new List<string> { "a", "b", "c", "ç", "d", "e", "f", "g", "ğ", "h", "ı", "i", "j", "k", "l", "m", "n", "o", "ö", "p", "r", "s", "ş", "t", "u", "ü", "v", "y", "z" };
-        private  static List<string> _buyukAlfabe = new List<string> { "A", "B", "C", "Ç", "D", "E", "F", "G", "Ğ", "H", "I", "İ", "J", "K", "L", "M", "N", "O", "Ö", "P", "R", "S", "Ş", "T", "U", "Ü", "V", "Y", "Z" };
+        #region "Degiskenler"
+        private int yeniIndeks;
+        private string kriptoSonuc;
+        private List<string> alfabe;
+        #endregion
 
-        private static List<string> KucukAlfabe { get => _kucukAlfabe; set => _kucukAlfabe = value; }
-        private static List<string> BuyukAlfabe { get => _buyukAlfabe; set => _buyukAlfabe = value; }
 
-        public static int IndeksFonksiyon(string sifrelemeTuru, string kriptoTuru, int indeks = 0, int anahtar = 0, char metinChr = '\0', char genislemisAnahtarChr = '\0')
+        #region "Metotlar"
+        public int IndeksFonksiyon(string sifrelemeTuru, string kriptoTuru, int indeks = 0, int anahtar = 0, char metinChr = '\0', char genislemisAnahtarChr = '\0')
         {
 
             switch (kriptoTuru)
@@ -56,7 +59,7 @@ namespace KriptoAlgoritmasi.Helper
             return yeniIndeks;
         }
 
-        public static string Sifrele(string sifrelemeTuru, string kriptoTuru, string metin, string anahtar)
+        public string Sifrele(string sifrelemeTuru, string kriptoTuru, string metin, string anahtar)
         {
             kriptoSonuc = "";
             switch (kriptoTuru)
@@ -69,7 +72,7 @@ namespace KriptoAlgoritmasi.Helper
                         {
                             alfabe = char.IsUpper(metin[i]) ? BuyukAlfabe : KucukAlfabe;
                             int indeks = alfabe.IndexOf(metin[i].ToString());
-                            int yeniIndeks = KriptoHelper.IndeksFonksiyon(sifrelemeTuru, ConstantsKripto.SezarKripto, indeks, yeniAnahtar);
+                            int yeniIndeks = IndeksFonksiyon(sifrelemeTuru, ConstantsKripto.SezarKripto, indeks, yeniAnahtar);
                             kriptoSonuc += alfabe[yeniIndeks];
                         }
                         else
@@ -84,7 +87,7 @@ namespace KriptoAlgoritmasi.Helper
                         if (char.IsLetter(metin[i]))
                         {
                             alfabe = char.IsUpper(metin[i]) ? BuyukAlfabe : KucukAlfabe;
-                            int indeks = KriptoHelper.IndeksFonksiyon(sifrelemeTuru, ConstantsKripto.VigenereKripto, 0, 0, metin[i], genislemisAnahtar[i]);
+                            int indeks = IndeksFonksiyon(sifrelemeTuru, ConstantsKripto.VigenereKripto, 0, 0, metin[i], genislemisAnahtar[i]);
                             kriptoSonuc += alfabe[indeks];
                         }
                         else
@@ -99,7 +102,7 @@ namespace KriptoAlgoritmasi.Helper
             return kriptoSonuc;
         }
 
-        public static int SifrelenmisMetninAnahtariniBulSezar(string metin, string sifrelenmisMetin)
+        public int SifrelenmisMetninAnahtariniBulSezar(string metin, string sifrelenmisMetin)
         {
             int anahtar = 0;
             for (int i = 0; i < metin.Length; i++)
@@ -116,7 +119,7 @@ namespace KriptoAlgoritmasi.Helper
             return anahtar;
         }
 
-        private static string AnahtariGenisletVigenere(string metin, string anahtar)
+        private string AnahtariGenisletVigenere(string metin, string anahtar)
         {
             string sonuc = string.Empty;
             int anahtarIndex = 0;
@@ -136,5 +139,6 @@ namespace KriptoAlgoritmasi.Helper
 
             return sonuc;
         }
+        #endregion
     }
 }

@@ -1,5 +1,4 @@
-﻿using KriptoAlgoritmasi.Helper;
-using System;
+﻿using KriptoAlgoritmasi.Helpers;
 
 namespace KriptoAlgoritmasi
 {
