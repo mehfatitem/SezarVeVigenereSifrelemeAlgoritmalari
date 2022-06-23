@@ -24,36 +24,36 @@ namespace KriptoAlgoritmasi.Helpers
 
             switch (kriptoTuru)
             {
-                case ConstantsKripto.SezarKripto:
+                case SezarKripto:
                     switch (sifrelemeTuru)
                     {
-                        case ConstantsKripto.IslemDesifre:
-                            yeniIndeks = ((indeks - anahtar + ConstantsKripto.AlfabeUzunlugu) % ConstantsKripto.AlfabeUzunlugu);
+                        case IslemDesifre:
+                            yeniIndeks = ((indeks - anahtar + AlfabeUzunlugu) % AlfabeUzunlugu);
                             break;
-                        case ConstantsKripto.IslemSifre:
-                            yeniIndeks = ((indeks + anahtar + ConstantsKripto.AlfabeUzunlugu) % ConstantsKripto.AlfabeUzunlugu);
+                        case IslemSifre:
+                            yeniIndeks = ((indeks + anahtar + AlfabeUzunlugu) % AlfabeUzunlugu);
                             break;
                         default:
-                            Console.WriteLine("Hatali şifreleme turu!");
+                            Console.WriteLine(HataliSifrelemeTuru);
                             break;
                     }
                     break;
-                case ConstantsKripto.VigenereKripto:
+                case VigenereKripto:
                     switch (sifrelemeTuru)
                     {
-                        case ConstantsKripto.IslemDesifre:
-                            yeniIndeks = (alfabe.IndexOf(metinChr.ToString()) - BuyukAlfabe.IndexOf(genislemisAnahtarChr.ToString()) + ConstantsKripto.AlfabeUzunlugu) % ConstantsKripto.AlfabeUzunlugu;
+                        case IslemDesifre:
+                            yeniIndeks = (alfabe.IndexOf(metinChr.ToString()) - BuyukAlfabe.IndexOf(genislemisAnahtarChr.ToString()) + AlfabeUzunlugu) % AlfabeUzunlugu;
                             break;
-                        case ConstantsKripto.IslemSifre:
-                            yeniIndeks = (alfabe.IndexOf(metinChr.ToString()) + BuyukAlfabe.IndexOf(genislemisAnahtarChr.ToString()) + ConstantsKripto.AlfabeUzunlugu) % ConstantsKripto.AlfabeUzunlugu;
+                        case IslemSifre:
+                            yeniIndeks = (alfabe.IndexOf(metinChr.ToString()) + BuyukAlfabe.IndexOf(genislemisAnahtarChr.ToString()) + AlfabeUzunlugu) % AlfabeUzunlugu;
                             break;
                         default:
-                            Console.WriteLine("Hatali şifreleme turu!");
+                            Console.WriteLine(HataliKriptoAlgoritmaTuru);
                             break;
                     }
                     break;
                 default:
-                    Console.WriteLine("Hatali kripto algoritmasi turu!");
+                    Console.WriteLine(HataliKriptoAlgoritmaTuru);
                     break;
             }
             return yeniIndeks;
@@ -64,22 +64,22 @@ namespace KriptoAlgoritmasi.Helpers
             kriptoSonuc = "";
             switch (kriptoTuru)
             {
-                case ConstantsKripto.SezarKripto:
-                    int yeniAnahtar = Convert.ToInt32(anahtar) % ConstantsKripto.AlfabeUzunlugu;
+                case SezarKripto:
+                    int yeniAnahtar = Convert.ToInt32(anahtar) % AlfabeUzunlugu;
                     for (int i = 0; i < metin.Length; i++)
                     {
                         if (char.IsLetter(metin[i]))
                         {
                             alfabe = char.IsUpper(metin[i]) ? BuyukAlfabe : KucukAlfabe;
                             int indeks = alfabe.IndexOf(metin[i].ToString());
-                            int yeniIndeks = IndeksFonksiyon(sifrelemeTuru, ConstantsKripto.SezarKripto, indeks, yeniAnahtar);
+                            int yeniIndeks = IndeksFonksiyon(sifrelemeTuru, SezarKripto, indeks, yeniAnahtar);
                             kriptoSonuc += alfabe[yeniIndeks];
                         }
                         else
                             kriptoSonuc += metin[i];
                     }
                     break;
-                case ConstantsKripto.VigenereKripto:
+                case VigenereKripto:
                     string genislemisAnahtar = AnahtariGenisletVigenere(metin, anahtar);
                     genislemisAnahtar = genislemisAnahtar.ToUpper();
                     for (var i = 0; i < metin.Length; i++)
@@ -87,7 +87,7 @@ namespace KriptoAlgoritmasi.Helpers
                         if (char.IsLetter(metin[i]))
                         {
                             alfabe = char.IsUpper(metin[i]) ? BuyukAlfabe : KucukAlfabe;
-                            int indeks = IndeksFonksiyon(sifrelemeTuru, ConstantsKripto.VigenereKripto, 0, 0, metin[i], genislemisAnahtar[i]);
+                            int indeks = IndeksFonksiyon(sifrelemeTuru, VigenereKripto, 0, 0, metin[i], genislemisAnahtar[i]);
                             kriptoSonuc += alfabe[indeks];
                         }
                         else
@@ -95,7 +95,7 @@ namespace KriptoAlgoritmasi.Helpers
                     }
                     break;
                 default:
-                    Console.WriteLine("Hatali kripto algoritmasi turu!");
+                    Console.WriteLine(HataliKriptoAlgoritmaTuru);
                     break;
             }
 
@@ -112,7 +112,7 @@ namespace KriptoAlgoritmasi.Helpers
                     alfabe = char.IsUpper(metin[i]) ? BuyukAlfabe : KucukAlfabe;
                     int metinIndeks = alfabe.IndexOf(metin[i].ToString());
                     int sifrelenmisMetinIndeks = alfabe.IndexOf(sifrelenmisMetin[i].ToString());
-                    anahtar = sifrelenmisMetinIndeks - metinIndeks % ConstantsKripto.AlfabeUzunlugu;
+                    anahtar = sifrelenmisMetinIndeks - metinIndeks % AlfabeUzunlugu;
                     break;
                 }
             }

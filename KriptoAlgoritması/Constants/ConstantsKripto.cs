@@ -11,5 +11,7 @@ namespace KriptoAlgoritmasi.Constants
         public const string IslemSifre = "Sifre";
         public const string IslemDesifre = "Desifre";
         public const int AlfabeUzunlugu = 29;
+        public const string HataliSifrelemeTuru = "Hatali sifreleme turu!";
+        public const string HataliKriptoAlgoritmaTuru = "Hatali kripto algoritmasi turu!";
     }
 }
