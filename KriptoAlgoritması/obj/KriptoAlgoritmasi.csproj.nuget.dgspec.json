@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mehfatitem\\source\\repos\\KriptoAlgoritması\\KriptoAlgoritması\\KriptoAlgoritmasi.csproj": {}
+    "D:\\git_projects\\SezarVeVigenereSifreleme\\KriptoAlgoritması\\KriptoAlgoritmasi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mehfatitem\\source\\repos\\KriptoAlgoritması\\KriptoAlgoritması\\KriptoAlgoritmasi.csproj": {
+    "D:\\git_projects\\SezarVeVigenereSifreleme\\KriptoAlgoritması\\KriptoAlgoritmasi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehfatitem\\source\\repos\\KriptoAlgoritması\\KriptoAlgoritması\\KriptoAlgoritmasi.csproj",
+        "projectUniqueName": "D:\\git_projects\\SezarVeVigenereSifreleme\\KriptoAlgoritması\\KriptoAlgoritmasi.csproj",
         "projectName": "KriptoAlgoritmasi",
-        "projectPath": "C:\\Users\\mehfatitem\\source\\repos\\KriptoAlgoritması\\KriptoAlgoritması\\KriptoAlgoritmasi.csproj",
+        "projectPath": "D:\\git_projects\\SezarVeVigenereSifreleme\\KriptoAlgoritması\\KriptoAlgoritmasi.csproj",
         "packagesPath": "C:\\Users\\mehfatitem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehfatitem\\source\\repos\\KriptoAlgoritması\\KriptoAlgoritması\\obj\\",
+        "outputPath": "D:\\git_projects\\SezarVeVigenereSifreleme\\KriptoAlgoritması\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -8,4 +8,14 @@ C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\obj\Debug
 C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.AssemblyInfo.cs
 C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.dll
 C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.pdb
-C:\Users\mehfatitem\source\repos\KriptoAlgoritması\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.csprojAssemblyReference.cache
+D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.exe
+D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.deps.json
+D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.runtimeconfig.json
+D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.runtimeconfig.dev.json
+D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.dll
+D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.pdb
+D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.csprojAssemblyReference.cache
+D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.AssemblyInfoInputs.cache
+D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.AssemblyInfo.cs
+D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.dll
+D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.pdb
