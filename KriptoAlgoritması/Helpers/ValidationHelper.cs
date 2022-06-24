@@ -8,6 +8,7 @@ namespace KriptoAlgoritmasi.Helpers
     public static class ValidationHelper
     {
         private static readonly string regxIsOnlyLettersStr = @"^[a-zA-Z]+$";
+        private static readonly string regxIsSignedIntegerStr = @"^-?[0-9]\d*(\.\d+)?$";
 
         public static bool IsLetter(char chr)
         {
@@ -28,6 +29,13 @@ namespace KriptoAlgoritmasi.Helpers
         {
             return Regex.IsMatch(str, regxIsOnlyLettersStr);
 
+        }
+
+        public static bool IsSignedInteger(string str)
+        {
+            return Regex.IsMatch(str, regxIsSignedIntegerStr);
+            /*int numericValue;
+            return int.TryParse(str, out numericValue);*/
         }
     }
 }

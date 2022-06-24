@@ -1,10 +1,7 @@
 ﻿using KriptoAlgoritmasi.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Text;
-using KriptoAlgoritmasi.Abstracts;
 using KriptoAlgoritmasi.Bases;
-using KriptoAlgoritmasi.Constants;
 
 namespace KriptoAlgoritmasi.Helpers
 {
@@ -65,6 +62,11 @@ namespace KriptoAlgoritmasi.Helpers
             switch (kriptoTuru)
             {
                 case SezarKripto:
+                    if (!ValidationHelper.IsSignedInteger(anahtar))
+                    {
+                        Yazdir(UyumsuzAnahtarSezar);
+                        return "";
+                    }   
                     int yeniAnahtar = Convert.ToInt32(anahtar) % AlfabeUzunlugu;
                     for (int i = 0; i < metin.Length; i++)
                     {
@@ -81,7 +83,7 @@ namespace KriptoAlgoritmasi.Helpers
                     break;
                 case VigenereKripto:
                     if (!ValidationHelper.IsOnlyLetters(anahtar)){
-                        Yazdir(UyumsuzAnahtar);
+                        Yazdir(UyumsuzAnahtarVigenere);
                         return "";
                     }
                     string genislemisAnahtar = AnahtariGenisletVigenere(metin, anahtar);

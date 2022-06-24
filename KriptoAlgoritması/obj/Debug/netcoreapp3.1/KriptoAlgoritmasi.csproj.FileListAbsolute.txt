@@ -19,3 +19,16 @@ D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp
 D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.dll
 D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.pdb
 D:\git_projects\SezarVeVigenereSifreleme\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.csprojAssemblyReference.cache
+C:\Users\940144\Desktop\SezarVeVigenereSifrelemeAlgoritmalari\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.exe
+C:\Users\940144\Desktop\SezarVeVigenereSifrelemeAlgoritmalari\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.deps.json
+C:\Users\940144\Desktop\SezarVeVigenereSifrelemeAlgoritmalari\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.runtimeconfig.json
+C:\Users\940144\Desktop\SezarVeVigenereSifrelemeAlgoritmalari\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.runtimeconfig.dev.json
+C:\Users\940144\Desktop\SezarVeVigenereSifrelemeAlgoritmalari\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.dll
+C:\Users\940144\Desktop\SezarVeVigenereSifrelemeAlgoritmalari\KriptoAlgoritması\bin\Debug\netcoreapp3.1\KriptoAlgoritmasi.pdb
+C:\Users\940144\Desktop\SezarVeVigenereSifrelemeAlgoritmalari\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.csprojAssemblyReference.cache
+C:\Users\940144\Desktop\SezarVeVigenereSifrelemeAlgoritmalari\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.AssemblyInfoInputs.cache
+C:\Users\940144\Desktop\SezarVeVigenereSifrelemeAlgoritmalari\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.AssemblyInfo.cs
+C:\Users\940144\Desktop\SezarVeVigenereSifrelemeAlgoritmalari\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.csproj.CoreCompileInputs.cache
+C:\Users\940144\Desktop\SezarVeVigenereSifrelemeAlgoritmalari\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.dll
+C:\Users\940144\Desktop\SezarVeVigenereSifrelemeAlgoritmalari\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.pdb
+C:\Users\940144\Desktop\SezarVeVigenereSifrelemeAlgoritmalari\KriptoAlgoritması\obj\Debug\netcoreapp3.1\KriptoAlgoritmasi.genruntimeconfig.cache

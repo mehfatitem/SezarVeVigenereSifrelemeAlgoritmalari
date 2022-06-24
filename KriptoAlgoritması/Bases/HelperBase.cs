@@ -1,8 +1,8 @@
 ﻿using KriptoAlgoritmasi.Abstracts;
 using KriptoAlgoritmasi.Constants;
+using KriptoAlgoritmasi.Kriptos;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace KriptoAlgoritmasi.Bases
 {
@@ -31,7 +31,8 @@ namespace KriptoAlgoritmasi.Bases
         protected readonly int AlfabeUzunlugu = ConstantsKripto.AlfabeUzunlugu;
         protected readonly string HataliSifrelemeTuru = ConstantsKripto.HataliSifrelemeTuru;
         protected readonly string HataliKriptoAlgoritmaTuru = ConstantsKripto.HataliKriptoAlgoritmaTuru;
-        protected readonly string UyumsuzAnahtar = ConstantsKripto.UyumsuzAnahtar;
+        protected readonly string UyumsuzAnahtarVigenere = ConstantsKripto.UyumsuzAnahtarVigenere;
+        protected readonly string UyumsuzAnahtarSezar = ConstantsKripto.UyumsuzAnahtarSezar;
         #endregion
 
         #region "Kurucu"

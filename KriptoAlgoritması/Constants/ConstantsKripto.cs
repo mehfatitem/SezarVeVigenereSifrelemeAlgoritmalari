@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace KriptoAlgoritmasi.Constants
+﻿namespace KriptoAlgoritmasi.Constants
 {
     public static class ConstantsKripto
     {
@@ -13,6 +9,7 @@ namespace KriptoAlgoritmasi.Constants
         public const int AlfabeUzunlugu = 29;
         public const string HataliSifrelemeTuru = "Hatali sifreleme turu!";
         public const string HataliKriptoAlgoritmaTuru = "Hatali kripto algoritmasi turu!";
-        public const string UyumsuzAnahtar = "Uyumsuz anahtar! Anahtar yalnizca harflerden olusmalidir!";
+        public const string UyumsuzAnahtarVigenere = "Vigenere icin uyumsuz bir anahtar! Anahtar yalnizca harflerden olusmalidir!";
+        public const string UyumsuzAnahtarSezar = "Sezar icin uyumsuz bir anahtar! Anahtar bir sayi olmalidir!";
     }
 }
